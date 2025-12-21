@@ -1,0 +1,36 @@
+{
+  "name": "beam-calculator-saas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "@supabase/auth-helpers-nextjs": "^0.15.0",
+    "@supabase/supabase-js": "^2.88.0",
+    "data-fns": "^1.1.0",
+    "dotenv": "^17.2.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.4",
+    "micro": "9.3.4",
+    "next": "^14.2.35",
+    "nodemailer": "^7.0.11",
+    "openai": "^6.15.0",
+    "pdfkit": "0.13.0",
+    "razorpay": "^2.9.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "recharts": "^3.6.0",
+    "stripe": "14.0.0",
+    "swr": "^2.3.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.7",
+    "typescript": "5.3.3"
+  }
+}
