@@ -1,4 +1,4 @@
-import { supabaseServer } from "../../../utils/supabaseServer";
+import { supabaseServer } from "@/lib/supabaseServer";
 
 export default async function handler() {
   const now = new Date().toISOString();

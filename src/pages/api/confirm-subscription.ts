@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import crypto from "crypto";
-import { supabaseServer } from "../../utils/supabaseServer";
+import { supabaseServer } from "@/lib/supabaseServer";
 import { sendMail } from "../../utils/mailer";
 
 export default async function handler(

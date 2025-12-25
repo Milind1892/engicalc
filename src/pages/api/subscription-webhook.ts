@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import crypto from "crypto";
 import getRawBody from "raw-body";
-import { supabaseServer } from "../../lib/supabaseServer";
+import { supabaseServer } from "@/lib/supabaseServer";
 
 export const config = {
   api: {
