@@ -10,6 +10,25 @@ export default function Home() {
 
   return (
     <>
+      {/* DEPLOYMENT CONFIRMATION BANNER (ADDED) */}
+      <div
+        style={{
+          textAlign: "center",
+          padding: "10px",
+          background: "#e8f5e9",
+          color: "#1b5e20",
+          fontSize: 14,
+        }}
+      >
+        ✅ EngiCalc is live on Vercel 🚀{" "}
+        <Link
+          href="/calculators/admin-summary"
+          style={{ marginLeft: 8, textDecoration: "underline" }}
+        >
+          Admin Summary
+        </Link>
+      </div>
+
       <Navbar />
 
       {/* HERO */}
