@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      {/* DEPLOYMENT CONFIRMATION BANNER (ADDED) */}
+      {/* ✅ DEPLOYMENT CONFIRMATION BANNER (MERGED SAFELY) */}
       <div
         style={{
           textAlign: "center",
@@ -20,7 +20,7 @@ export default function Home() {
           fontSize: 14,
         }}
       >
-        ✅ EngiCalc is live on Vercel 🚀{" "}
+        ✅ <strong>EngiCalc is Live</strong> on Vercel 🚀
         <Link
           href="/calculators/admin-summary"
           style={{ marginLeft: 8, textDecoration: "underline" }}
